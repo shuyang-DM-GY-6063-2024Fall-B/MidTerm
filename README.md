@@ -1,60 +1,36 @@
-# p5.js Template
+#### What book, album or movie did you choose? What is it about?
 
-This is a README file that can be used to describe and document your assignment.
+The book I chose was Moby-Dick; or, The Whale .The story is narrated by Ishmael, a sailor on the whaling ship Pequod, which is led by Captain Ahab. Ahab is obsessed with hunting down the giant white whale, Moby Dick, to take revenge for losing his leg to it during a previous voyage.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+This novel also delving into themes such as social class, good and evil, and religion. The story draws inspiration from the real-life sinking of the whaling ship Essex in 1820. Although the theme of this book might seem like it would attract complaints from animal rights organizations, I admire the way it portrays life at sea and reflects on life on land. I also respect Ahab’s relentless pursuit of his goal, even though it borders on madness.
 
----
----
+#### What aspect of the book will you include in your cover?
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+For my cover, I will include these key elements:
+Key Elements: The whaling ship and the pursuit of the white whale, Moby Dick.
+Atmosphere: A storm is approaching, with turbulent waves and lightning flashing across the sky.
+Emotion: Madness and fear intertwine, and the ship is engulfed by an atmosphere of obsession with revenge and tension.
+Visual Details: Amid the crashing waves, glimpses of the white whale splashing water can be seen, with the ship rocking up and down on the swells.
 
-**bold text**
+#### Is it interactive? Time-based? Both?
 
-*italicized text*
+The cover will be both interactive and time-based.
 
-~~strikethrough text~~
+Time-based elements: The waves and clouds will move gradually over time, creating a dynamic sea environment.
+Interactive elements: When the user clicks the mouse, Moby Dick will appear briefly among the waves, splashing water that makes the ship rock.And lightning will flash in the background, adding tension to the scene.
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
+#### What ideas would you like to explore or experiment with?
 
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
+I’d like to try more complex interactions by using the mousePressed() or mouseClicked() functions to trigger events when users interact with the scene.And I plan to use if() statements to make Moby Dick’s movement more unpredictable and dynamic. I also consider to incorporating more real data, such as the population size or maximum length of whales over the years, to control the size and movement strength of Moby Dick.
 
 
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
 
+#### Are there aspects of your project that are related to any of the readings we’ve done?
 
-Image on repo:  
-![image description](./file-name.jpg)
+I think it related to last week’s reading which mentioned that books are often seen as the least interactive medium. This inspired me to explore ways to improve their interactivity through my project. By blending technology with storytelling, I aim to make literature more appealing and accessible.
 
+#### Include at least one drawing or sketch
 
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
+（Since my drawing skill is poor so I will also show the picture through coding）
 
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+![alt text](ea67b7da2bb2a2e234248d22f86d5f7.jpg)
