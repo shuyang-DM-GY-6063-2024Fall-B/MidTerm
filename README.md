@@ -21,16 +21,14 @@ Interactive elements: When the user clicks the mouse, Moby Dick will appear brie
 
 #### What ideas would you like to explore or experiment with?
 
-I’d like to try more complex interactions by using the mousePressed() or mouseClicked() functions to trigger events when users interact with the scene.And I plan to use if() statements to make Moby Dick’s movement more unpredictable and dynamic. I also consider to incorporating more real data, such as the population size or maximum length of whales over the years, to control the size and movement strength of Moby Dick.
+I'd like to try more complex interactions by using the mousePressed() or mouseClicked() functions to trigger events when users interact with the scene.And I plan to use if() statements to make Moby Dick’s movement more unpredictable and dynamic. I also consider to incorporating more real data, such as the population size or maximum length of whales over the years, to control the size and movement strength of Moby Dick.
 
 
 
-#### Are there aspects of your project that are related to any of the readings we’ve done?
+#### Are there aspects of your project that are related to any of the readings we've done?
 
-I think it related to last week’s reading which mentioned that books are often seen as the least interactive medium. This inspired me to explore ways to improve their interactivity through my project. By blending technology with storytelling, I aim to make literature more appealing and accessible.
+I think it related to last week's reading which mentioned that books are often seen as the least interactive medium. This inspired me to explore ways to improve their interactivity through my project. By blending technology with storytelling, I aim to make literature more appealing and accessible.
 
 #### Include at least one drawing or sketch
-
-（Since my drawing skill is poor so I will also show the picture through coding）
 
 ![alt text](ea67b7da2bb2a2e234248d22f86d5f7.jpg)
