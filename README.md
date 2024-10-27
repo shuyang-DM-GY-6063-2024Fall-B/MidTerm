@@ -1,3 +1,5 @@
+
+# MileStone 1
 #### What book, album or movie did you choose? What is it about?
 
 The book I chose was Moby-Dick; or, The Whale .The story is narrated by Ishmael, a sailor on the whaling ship Pequod, which is led by Captain Ahab. Ahab is obsessed with hunting down the giant white whale, Moby Dick, to take revenge for losing his leg to it during a previous voyage.
@@ -32,3 +34,5 @@ I think it related to last week's reading which mentioned that books are often s
 #### Include at least one drawing or sketch
 
 ![alt text](ea67b7da2bb2a2e234248d22f86d5f7.jpg)
+
+

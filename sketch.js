@@ -2,7 +2,7 @@ let cloudScales = [];
 let cloudNumbers = [];
 
 function preload(){
-  loadImage("../whale.png")
+  whale = loadImage("https://raw.githubusercontent.com/shuyang-DM-GY-6063-2024Fall-B/MidTerm/main/whale.png")
 
 }
 
@@ -39,9 +39,7 @@ function clouds(x, y, time, scales, number) {
     gap += scale * 0.6;
     if(i == number/2-1 || i == number/2 ||  i == number/2 + 1 ){
       ellipse(gap, movement, scale*1.5 + movement * 0.2,scale*1.2+ movement * 0.2);
-
-    } 
-    
+    }   
     else{
       ellipse(gap, movement, scale+ movement * 0.2,scale*0.8+ movement * 0.2);
     }
@@ -183,6 +181,7 @@ function draw() {
 
   // test ship
   ship(width/2,height/2,20,time1)
+  image(whale,width/2,height-100)
   
 
 }
