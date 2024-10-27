@@ -173,7 +173,7 @@ function draw() {
 
   // test ship
   ship(width/2,height/2,20,time1)
-  image(whale,0,0)
+  image(whale,0,0,whale.width/4,whale.height/4)
   // for orginized picture,there will be three layers of wave,
   // about 6 clouds floation over sky.A rotating ship will sail on the sea, 
   // and a whale will move in response to the mouse. 
