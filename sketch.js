@@ -86,7 +86,7 @@ function waterWave(x,y,wave,length,height,time){
     push();
     fill('black')
     translate(x,y);
-    rotate(sin(time*10)*5)
+    rotate(sin(time*10)*3)
     beginShape();
     vertex(0,0);
     vertex(a*21,0);
@@ -154,19 +154,11 @@ function waterWave(x,y,wave,length,height,time){
       endShape()  
       a =a+2
     }
-
-
-
     pop();
-
-
-
-
   }
 
-
 function draw() {
-  background('white');
+  background(220);
   let time1 = millis() / 100; 
 
 
@@ -181,8 +173,14 @@ function draw() {
 
   // test ship
   ship(width/2,height/2,20,time1)
-  image(whale,width/2,height-100)
-  
+  image(whale,0,0)
+  // for orginized picture,there will be three layers of wave,
+  // about 6 clouds floation over sky.A rotating ship will sail on the sea, 
+  // and a whale will move in response to the mouse. 
+  // The title of this book will be placed at the top left of the image.
+}
 
+function mouseClicked(){
+  // thunder will occur
 }
 

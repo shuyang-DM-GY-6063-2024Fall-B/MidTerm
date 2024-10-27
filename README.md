@@ -1,3 +1,22 @@
+# MileStone 2
+
+#### what you’ve done this week
+I have write all the fuction I need to use for the final work.And test whether it can work.()
+#### description of the files, classes, objects or arrays you will use
+I will use the silhouette of the whale and a array called cloudNumbers to store preset random number for clouds' shape and size.
+#### description of any interactivity or time-based logic
+The cloud, ship, and wave will all move over time. When the mouse is clicked, thunder will occur. The whale will follow the mouse movement, influencing both the wave and the ship.
+
+
+#### description of functions you have written or will write
+Ship Function: The ship can rotate, and its sails billow with the wind. Both its scale and position can also be changed.
+
+Cloud Function: The clouds are created using a series of movable ellipses, with adjustable scale and position.
+
+Water Wave Function: The waves ripple continuously over time. And it position, length, width and waveheight are changable.
+
+Thunder Function: The lightning will appear and disappear over time.
+
 
 # MileStone 1
 #### What book, album or movie did you choose? What is it about?
@@ -34,5 +53,6 @@ I think it related to last week's reading which mentioned that books are often s
 #### Include at least one drawing or sketch
 
 ![alt text](ea67b7da2bb2a2e234248d22f86d5f7.jpg)
+
 
 
