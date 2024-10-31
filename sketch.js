@@ -12,7 +12,7 @@ let myFont;
 
 function preload(){
   whale = loadImage("https://raw.githubusercontent.com/shuyang-DM-GY-6063-2024Fall-B/MidTerm/main/whale.png")
-  myFont = loadFont('../LexendBold.ttf');
+  myFont = loadFont('https://raw.githubusercontent.com/shuyang-DM-GY-6063-2024Fall-B/MidTerm/main/LexendBold.ttf');
 
 }
 
