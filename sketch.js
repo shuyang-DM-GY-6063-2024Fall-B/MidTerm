@@ -21,7 +21,7 @@ function setup() {
   angleMode(DEGREES);
   noStroke();
   textFont(myFont);
-  textSize(64)
+  textSize((64*windowWidth)/1080)
 
 
   for (let id = 0; id < 6; id++) {
@@ -180,11 +180,12 @@ function thunder(x,y,width,length,scale,time){
     }
     pop();
   }
+
 function bubble(posx,posy,x,y,r,time){
   push();
   translate(posx,posy);
-  for(idx = 0; idx<40;idx++){
-    bubbleAlpha = map(sin(time*15+idx*10),-1,1,0,255)
+  for(idx = 0; idx< 200;idx++){
+    bubbleAlpha = map(sin(time*15+idx*10),-1,1,0,233)
     fill(233+22*sin(idx*5),244+11*sin(idx*5),255,bubbleAlpha);
     ellipse(x[idx],y[idx],r+sin(idx*1+time*10)*5)
   }
@@ -224,7 +225,7 @@ function draw() {
   translate(whaleX,whaleY)
   rotate(sin(time1*10)+95-whaleY/5)
   image(whale,0,0,whale.width/2,whale.height/1.5);
-  bubble(0,0,bubbleX,bubbleY,30,time1);
+  bubble(0,0,bubbleX,bubbleY,10,time1);
   pop()
 
   waterWave(-1.6*width+(time1*10)%width,height-150,10,width*2,height,time1*10,'#284578');
