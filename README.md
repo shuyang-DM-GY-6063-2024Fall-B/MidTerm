@@ -1,3 +1,24 @@
+# MileStone 3
+#### what you’ve done this week？
+For this week, I finish the cover by rejust it position and color. And I add some interactive effect like the whale's position influences the rotation of the ship, and the foam moves accordingly. I also added lightnings occur after mouse clicking and implemented a setTimeout() function that resets the picture to its initial state after it.
+
+#### description of the final interactivity or time-based logic
+Clouds: The clouds() function draws clouds based on given x, y positions, size, and number of ellipses per cloud. Each ellipses  has a slightly animated effect using sine functions to simulate movement.
+Thunder: The thunder() function draws a white zigzag line over the cloud when the thunder state is true. This state is toggled in mousePressed(), causing thunder to appear briefly across all clouds and change the background color 
+Wave: The  waterWave() function creates a sinusoidal wave pattern by mapping vertex positions in a loop, giving the impression of a rolling sea.
+Ship: The ship() function creates a ship using a combination of shapes The hull can also move with wind.And using sin() for rotation, the ship gently rocks to simulate the natural motion of floating on water. This rotation will be intensified if the whale is nearby.
+Whale: The whale image follows the mouse’s horizontal position, while its vertical position is mapped to the mouse’s y-position with limited range for smoother and reasonable movement. And it rotation using sin(time1 * 10) for a natural swimming effect.
+Bubble Effect: The bubble() function generates bubbles near the whale’s position, using an oscillating opacity and random sizing for a realistic look.
+Title Text: The text "Moby.Dick" is displayed at a static position, enhancing the thematic connection to the scene.
+
+#### images, drawings, sketches
+initial status
+![alt text](image.png)
+after click
+![alt text](image-2.png)
+
+
+
 # MileStone 2
 
 #### what you’ve done this week
