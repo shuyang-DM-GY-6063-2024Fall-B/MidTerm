@@ -11,6 +11,9 @@ Whale: The whale image follows the mouse’s horizontal position, while its vert
 Bubble Effect: The bubble() function generates bubbles near the whale’s position, using an oscillating opacity and random sizing for a realistic look.
 Title Text: The text "Moby.Dick" is displayed at a static position, enhancing the thematic connection to the scene.
 
+##### Here is the slides:
+https://docs.google.com/presentation/d/1YKTeTgvUdy-hRkuOBoju8wNyjJ5B3f3Y/edit?usp=sharing&ouid=100189141606810586966&rtpof=true&sd=true
+
 #### images, drawings, sketches
 initial status
 ![alt text](image.png)
