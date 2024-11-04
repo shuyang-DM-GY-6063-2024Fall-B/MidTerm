@@ -193,14 +193,14 @@ function bubble(posx,posy,x,y,r,time){
 }
 
 function draw() {
+
   background('#2e3147');
   if(thunderStates[0]){
     background('#595e87');
   }
+
   time1 = millis() / 100; 
 
-
-  // test clouds
   for (let id = 0; id < 6; id++) {
     fill(97, 99+id*5, 133+id*5)
     
@@ -209,21 +209,18 @@ function draw() {
       fill(163+id*5, 167+id*5, 227+id*5)
     }
     clouds(positionX[id], positionY[id], time1, cloudScales[id], cloudNumbers[id]);
-
-
   }
-  // test sea
+
   waterWave(-width+(time1*10)%width,height-250,10,width*2,height,time1*10,'#1b1e54')
 
-  // test ship
-  ship(width/3,height/2,20,time1)
+  ship(width/3,height-250,20,time1)
   imageMode(CENTER)
   waterWave(-1.5*width+(time1*10)%width,height-200,10,width*2,height,time1*10,'#2c3366')
   push()
   whaleY = map(mouseY,0,height,height-150,height-80)
   whaleX = mouseX+100
   translate(whaleX,whaleY)
-  rotate(sin(time1*10)+95-whaleY/5)
+  rotate(sin(time1*10)+80-whaleY/6)
   image(whale,0,0,whale.width/2,whale.height/1.5);
   bubble(0,0,bubbleX,bubbleY,10,time1);
   pop()
