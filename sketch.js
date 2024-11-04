@@ -220,7 +220,8 @@ function draw() {
   whaleY = map(mouseY,0,height,height-150,height-80)
   whaleX = mouseX+100
   translate(whaleX,whaleY)
-  rotate(sin(time1*10)+80-whaleY/6)
+  rotation = map(whaleY,height-150,height-80,0,15)
+  rotate(sin(time1*10)+20-rotation)
   image(whale,0,0,whale.width/2,whale.height/1.5);
   bubble(0,0,bubbleX,bubbleY,10,time1);
   pop()
